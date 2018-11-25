@@ -1,0 +1,4 @@
+﻿Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+Microsoft.Extensions.Configuration
+Microsoft.Extensions.Configuration.Json

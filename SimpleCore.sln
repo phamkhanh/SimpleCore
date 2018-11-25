@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCore.UI.Web", "SimpleCore.UI.Web\SimpleCore.UI.Web.csproj", "{B7FC0D75-DEE8-4441-AA91-60839B85E0E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCore.UI.Web", "SimpleCore.UI.Web\SimpleCore.UI.Web.csproj", "{B7FC0D75-DEE8-4441-AA91-60839B85E0E5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentaion", "1 - Presentaion", "{A21B08FB-A2EF-4907-98DF-DC515294AD08}"
 EndProject
@@ -13,15 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{3DB93D20-F432-4616-A046-4D7B6136466B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCore.Infrastructure", "SimpleCore.Infrastructure\SimpleCore.Infrastructure.csproj", "{54233647-246C-4462-8CCC-A173FFAB6FDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCore.Infrastructure", "SimpleCore.Infrastructure\SimpleCore.Infrastructure.csproj", "{54233647-246C-4462-8CCC-A173FFAB6FDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCore.Common", "SimpleCore.Common\SimpleCore.Common.csproj", "{18E73EE2-DE02-434C-9192-F79F23631946}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCore.Common", "SimpleCore.Common\SimpleCore.Common.csproj", "{18E73EE2-DE02-434C-9192-F79F23631946}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCore.Domain.Data", "SimpleCore.Domain.Data\SimpleCore.Domain.Data.csproj", "{9AEA0EC2-F9AD-47AE-8051-EA2CBBA0D3CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCore.Domain.Data", "SimpleCore.Domain.Data\SimpleCore.Domain.Data.csproj", "{9AEA0EC2-F9AD-47AE-8051-EA2CBBA0D3CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCore.Domain.Data.EF", "SimpleCore.Domain.Data.EF\SimpleCore.Domain.Data.EF.csproj", "{85D1C878-BB36-4853-A9E2-BE6DB1194682}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCore.Domain.Data.EF", "SimpleCore.Domain.Data.EF\SimpleCore.Domain.Data.EF.csproj", "{85D1C878-BB36-4853-A9E2-BE6DB1194682}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCore.Application", "SimpleCore.Application\SimpleCore.Application.csproj", "{B364261A-8344-4F3F-87A4-2606471940A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCore.Application", "SimpleCore.Application\SimpleCore.Application.csproj", "{B364261A-8344-4F3F-87A4-2606471940A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
