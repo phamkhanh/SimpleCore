@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleCore.Common\SimpleCore.Common.csproj" />
+    <ProjectReference Include="..\SimpleCore.Domain.Data\SimpleCore.Domain.Data.csproj" />
+    <ProjectReference Include="..\SimpleCore.Infrastructure\SimpleCore.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

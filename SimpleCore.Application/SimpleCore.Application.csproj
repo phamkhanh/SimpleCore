@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="AutoMapper\" />
+    <Folder Include="Implementations\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="ViewModel\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleCore.Common\SimpleCore.Common.csproj" />
+    <ProjectReference Include="..\SimpleCore.Domain.Data.EF\SimpleCore.Domain.Data.EF.csproj" />
+    <ProjectReference Include="..\SimpleCore.Domain.Data\SimpleCore.Domain.Data.csproj" />
+  </ItemGroup>
+
+</Project>

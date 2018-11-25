@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-SimpleCore.UI.Web-373E788F-BACA-4E4B-9A71-1377ACE53E94</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.6" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleCore.Common\SimpleCore.Common.csproj" />
+    <ProjectReference Include="..\SimpleCore.Domain.Data.EF\SimpleCore.Domain.Data.EF.csproj" />
+    <ProjectReference Include="..\SimpleCore.Domain.Data\SimpleCore.Domain.Data.csproj" />
+    <ProjectReference Include="..\SimpleCore.Infrastructure\SimpleCore.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
