@@ -2,3 +2,6 @@
 Microsoft.EntityFrameworkCore.Tools
 Microsoft.Extensions.Configuration
 Microsoft.Extensions.Configuration.Json
+
+Add-Migration init
+update-database
