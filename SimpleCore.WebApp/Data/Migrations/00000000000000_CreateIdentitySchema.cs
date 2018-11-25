@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace SimpleCore.UI.Web.Data.Migrations
+namespace SimpleCore.WebApp.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

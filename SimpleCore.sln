@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCore.Domain.Data.EF",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCore.Application", "SimpleCore.Application\SimpleCore.Application.csproj", "{B364261A-8344-4F3F-87A4-2606471940A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCore.WebApp", "SimpleCore.WebApp\SimpleCore.WebApp.csproj", "{BEB6EB12-765B-4B86-B4D7-FC3B319C2432}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{B364261A-8344-4F3F-87A4-2606471940A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B364261A-8344-4F3F-87A4-2606471940A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B364261A-8344-4F3F-87A4-2606471940A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB6EB12-765B-4B86-B4D7-FC3B319C2432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB6EB12-765B-4B86-B4D7-FC3B319C2432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB6EB12-765B-4B86-B4D7-FC3B319C2432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB6EB12-765B-4B86-B4D7-FC3B319C2432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{9AEA0EC2-F9AD-47AE-8051-EA2CBBA0D3CE} = {19AC94C0-9E7E-44D2-B67A-340C5F0C1CE3}
 		{85D1C878-BB36-4853-A9E2-BE6DB1194682} = {19AC94C0-9E7E-44D2-B67A-340C5F0C1CE3}
 		{B364261A-8344-4F3F-87A4-2606471940A6} = {76FA63F7-CB75-4746-B11B-958FADC633E5}
+		{BEB6EB12-765B-4B86-B4D7-FC3B319C2432} = {A21B08FB-A2EF-4907-98DF-DC515294AD08}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F66DC8B-D486-4A8B-BFC1-D56AA759B192}
